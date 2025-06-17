@@ -1,5 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import { lusitana } from '@/app/ui/fonts';
 import Link from 'next/link';
 
 export default function Page() {
@@ -17,6 +18,17 @@ export default function Page() {
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
+          </p>
+          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+            Just testing the font "Lusitana" here. It is a serif font that is
+            used for headings and titles. It has a classic and elegant look,
+            making it suitable for formal and traditional designs. The font is
+            available in various weights, allowing for flexibility in design.
+            It is often used in print media, such as books and magazines, as well
+            as in digital formats. The font's readability and timeless style
+            make it a popular choice for designers looking to create a sophisticated
+            and refined aesthetic. Whether used for headings, titles, or body text,
+            Lusitana adds a touch of elegance to any design project.
           </p>
           <Link
             href="/login"
